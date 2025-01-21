@@ -9,7 +9,7 @@ All assignments are built on papers you will read for the class.
 Each of these coding tasks exemplifies the paper discussed this week, and reproduces a simplified version of the smart healthcare framework in this paper.
 The assignments introduce you to the latest advances in Machine Learning (broadly) and especially Deep Learning.
 
-Useful reference ML concepts: [ML Glossary from Google](https://developers.google.com/machine-learning/glossary#multi-class)
+Useful reference to ML concepts: [ML Glossary from Google](https://developers.google.com/machine-learning/glossary#multi-class)
 
 ## Course staff
 
