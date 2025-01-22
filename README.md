@@ -65,7 +65,7 @@ In this exercise, you will recreate some of the experiments described in the DOC
 ## License
 
 BSD-3-Clause. 
-Copyright (c) 2023, JHA-Lab.
+Copyright (c) 2025, JHA-Lab.
 All rights reserved.
 
 See License file for more details.
