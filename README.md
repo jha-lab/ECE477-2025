@@ -51,6 +51,15 @@ For this project, you will train deep neural networks on data obtained from COVI
 
 After completing grow-and-prune synthesis, you should obtain a compact neural network that has better accuracy than before using this step.
 
+**Assignment 5: ML classifiers**
+
+For this project, you will implement a framework for stress detection based on physiological signals. The experimental data are collected from 32 individuals using wearable medical sensors. The dataset features are ECG, Galvanic Skin Response (GSR), Respiration, Blood Oximeter, and Blood Pressure. To reduce the data size, you will employ Principal Component Analysis, which is a versatile unsupervised dimensionality reduction technique. With the reduced dataset, you will train and evaluate k-NN and SVM models with radial basis functions for binary stress classification.
+
+**Assignment 6: ML classifiers**
+
+DOCTOR is a framework that enables continual learning for disease detection based on wearable medical sensor data.
+
+In this exercise, you will recreate some of the experiments described in the DOCTOR paper. You will perform domain-, class-, and task-incremental learning using a multilayer perceptron (MLP) model that detects diabetes and mental health disorders using replay-based continual learning methods.
 
 
 ## License
