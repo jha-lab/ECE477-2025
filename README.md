@@ -42,6 +42,10 @@ For this project, you will train compact neural networks with a mutating archite
 
 Your goal is to implement SCANN Scheme A. This is a constructive approach. We start with a seed architecture that has a small number of hidden neurons. Using an iterative process, we apply connection growth and neuron growth to grow the network size. We have a maximum number of neurons that we cannot exceed (this is one of the hyperparameters).
 
+**Assignment 3: TUTOR**
+
+For this project, you will implement the TUTOR framework to train accurate deep neural networks with limited data and optimized computational resources. The workflow includes generating synthetic data using KDE and GMM methods, validating it with semantic integrity classifiers, labeling synthetic data with a random forest classifier, and training baseline models on real data. You will then apply Scheme A: pretraining on synthetic data followed by final training on real data, to demonstrate the benefits of this approach.
+
 **Assignment 4: CovidDeep**
 
 For this project, you will train deep neural networks on data obtained from COVID-19 patients to predict if the patient is healthy or has COVID-19. This includes three steps:
