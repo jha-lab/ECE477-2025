@@ -1,0 +1,8 @@
+Coding submission workflow
+
+We ask you to implement all coding projects in Google Colab, and submit a pdf-converted notebook + shared link to the Colab project.
+
+Grading will be based on the pdf. We will look at the link only if there are some mojor issues with your code, and it's hard to determine your grade without running some of its part.
+
+1) Add the shared link to your colab at the 1st cell of your notebook (share --> copy link). 
+2) After completing an assignment, click File --> Print --> select PDF -> save the file.
