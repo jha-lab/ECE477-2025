@@ -66,6 +66,31 @@ DOCTOR is a framework that enables continual learning for disease detection base
 In this exercise, you will recreate some of the experiments described in the DOCTOR paper. You will perform domain-, class-, and task-incremental learning using a multilayer perceptron (MLP) model that detects diabetes and mental health disorders using replay-based continual learning methods.
 
 
+**Assignment 7: CONFINE**
+
+For this project, you will train and evaluate a DLN for classification using the Heart Disease Kaggle dataset. It includes the steps of data preparation, including preprocessing, scaling, and feature reordering. It then includes how to train a DLN model, evaluate its performance, and visualize the learned network.
+See the Jupyter notebook for more details.
+
+**Assignment 8: CONFINE**
+
+In this assignment, you will implement the CONFINE algorithm, a versatile framework that generates prediction sets with statistically robust uncertainty estimates. The assignment will guide you through the following steps.
+
+(a) Train a DNN on the CovidDeep Dataset. The model should classify patients into three health
+categories: healthy, asymptomatic, and symptomatic. The DNN will be used to extract feature embeddings that will be used by CONFINE.
+(b) Compute Nonconformity Scores: Implement the CONFINE nonconformity score using cosine
+distance.
+(c) Calculate p-Values: For each test sample, compute p-values based on the nonconformity
+scores. You will calculate p-values for each class using both the CONFINE and CONFINE-classwise methods, which differ in how calibration samples are used.
+(d) Make Predictions and Compute Confidence: For each test sample, you will use the p-values
+to create a prediction set, determine the final prediction, and calculate the model’s credibility
+and confidence.
+(e) Evaluate the Model: Finally, you will evaluate the model’s performance using accuracy,
+correct efficiency, and coverage.
+
+Note: This assignment may take approximately 35 minutes to run on Colab. It is recommended that you start working on the assignment early to avoid running into time constraints.
+
+
+
 ## License
 
 BSD-3-Clause. 
