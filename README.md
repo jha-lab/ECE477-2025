@@ -66,7 +66,7 @@ DOCTOR is a framework that enables continual learning for disease detection base
 In this exercise, you will recreate some of the experiments described in the DOCTOR paper. You will perform domain-, class-, and task-incremental learning using a multilayer perceptron (MLP) model that detects diabetes and mental health disorders using replay-based continual learning methods.
 
 
-**Assignment 7: CONFINE**
+**Assignment 7: DLN**
 
 For this project, you will train and evaluate a DLN for classification using the Heart Disease Kaggle dataset. It includes the steps of data preparation, including preprocessing, scaling, and feature reordering. It then includes how to train a DLN model, evaluate its performance, and visualize the learned network.
 See the Jupyter notebook for more details.
@@ -87,8 +87,17 @@ and confidence.
 (e) Evaluate the Model: Finally, you will evaluate the model’s performance using accuracy,
 correct efficiency, and coverage.
 
-Note: This assignment may take approximately 35 minutes to run on Colab. It is recommended that you start working on the assignment early to avoid running into time constraints.
+**Assignment 9: LSTM**
 
+In this coding assignment, you will develop an LSTM-based classifier for diabetes diagnosis (healthy vs. unhealthy) using the DiabDeep dataset. The DiabDeep dataset contains physiological signals obtained with wearable sensors from 52 participants.
+
+Through the assignment, you will implement key components of a neural model based on the DiabDeep paper. You will be tasked with adding gates to a hidden-layer LSTM (H-LSTM) architecture, in which each control gate incorporates an additional hidden layer with a ReLU activation to improve learning capacity. Then, you will complete the H-LSTM Classifier model—responsible for predicting healthy versus unhealthy diagnoses—by adding the missing layers and forward pass calculations, and finally, train the model on the DiabDeep dataset.
+
+**Assignment 10: LLM**
+
+This assignment provides hands-on experience querying different Large Language Models (LLMs) through a cloud API provider (Nebius AI). You will focus on a simplified medical Question Answering task, using sample questions from MedMCQA, a large-scale, Multiple-Choice Question Answering (MCQA) dataset designed to address real-world medical entrance exam questions.
+
+The goal of this assignment is to develop practical skills in interacting with LLM APIs, comparing the capabilities of different open-source models (including those potentially fine-tuned for biomedical domains), exploring the impact of generation parameters, and evaluating their potential and limitations in the healthcare context.
 
 
 ## License
